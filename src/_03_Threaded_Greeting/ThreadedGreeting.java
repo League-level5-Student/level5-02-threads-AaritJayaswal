@@ -20,19 +20,6 @@ public class ThreadedGreeting {
 	
 	//1. Create a new class called ThreadedGreeter that implements the Runnable interface.
 	//   Be sure to implement the run() method.
-	class ThreadedGreeter implements Runnable{
-
-		public void run() {
-			int count;
-			count = 0;
-			
-			if(count <= 50) {
-				
-			}
-			
-		}
-		
-	}
 	
 	//2. Give the ThreadedGreeter class a  member variable of the integer type and a constructor
 	//   to initialize the member variable to a custom value.
