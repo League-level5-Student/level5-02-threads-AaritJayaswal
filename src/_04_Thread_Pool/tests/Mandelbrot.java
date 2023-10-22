@@ -10,6 +10,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 
+import _04_Thread_Pool.WorkQueue;
+
 public class Mandelbrot implements KeyListener {
 	public static final int WIDTH = 700;
 	public static final int HEIGHT = 500;
