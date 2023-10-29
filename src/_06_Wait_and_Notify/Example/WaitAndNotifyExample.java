@@ -19,8 +19,8 @@ public class WaitAndNotifyExample {
 	
 	
 	public static void main(String[] args) {
-		Thread s1 = new Thread(new ThreadPrinter());
-		Thread s2 = new Thread(new ThreadPrinter());
+		Thread s1 = new Thread(new SynchedThreadPrinter());
+		Thread s2 = new Thread(new SynchedThreadPrinter());
 		
 		s1.start();
 		s2.start();
